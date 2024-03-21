@@ -1,0 +1,94 @@
+body {
+    background-color: #56cfe1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;/*permite quebra delinha*/
+    gap: 20px;
+    /* border : solid 1px #ffffff; */
+}
+.card {
+    background-color: #ffffff;
+
+    width: 300px;
+    /*largura*/
+
+    /*serve para mover o texto da borda*/
+    padding: 35px;
+
+    /* distacia da borda pro conteudo interno*/
+    margin-bottom: 16px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /*border: solid 1px #fceb00; */
+
+    border-radius: 16px;
+}
+
+.foto {
+    width: 300px;
+    aspect-ratio: 1/1;
+    object-fit: scale-down;
+
+    /*border: solid 1px #00ff37 /*solid = linha de */
+}
+
+.nome {
+
+
+
+    color: #000000;
+
+    font-size: 20px;
+
+    font-weight: 800;
+    
+}
+
+.armazenamento {
+
+    /* move o texto como o padding só que mexe a borda junto com o conteudo interno*/
+    margin-left: 20px;
+
+    color: #000000;
+
+/* border: solid burlywood; */
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+.ram {
+
+    margin-left: 20px;
+    color: #000000;
+
+
+}
+
+
+.cor {
+
+    margin-left: 20px;
+    color: #000000;
+
+
+}
+
+
+
+
+.preco {
+
+     /* border: solid 1px #0000ff> */
+
+     color: rgb(247, 148, 0); 
+
+    font-weight: 700;
+
+    font-size: 18px;
+
+/*metodo abaixo serve para mover o texto*/
+    text-align: right;
+}
