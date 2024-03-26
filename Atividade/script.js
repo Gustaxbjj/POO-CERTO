@@ -88,3 +88,15 @@ for (let i = 0; i < musicas.length; index++) {
     const element =  (`${artista1.titulo}, ${artista2.}`);
     
 }
+
+for (let i = 0; i < musicas.length; i++) {
+    document.write(`
+   <div class="card">
+   <img class="poster" src='img/${músicas[i].poster}' >
+        <p class="titulo">${musicas[i].titulo} </p> 
+        <p class="artista"> ${musicas[i].artista}</p>
+        <p class="album"> ${musicas[i].album}</p>
+ </div>   
+
+    `)
+}
