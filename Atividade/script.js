@@ -92,10 +92,20 @@ for (let i = 0; i < musicas.length; index++) {
 for (let i = 0; i < musicas.length; i++) {
     document.write(`
    <div class="card">
+   
+   
    <img class="poster" src='img/${músicas[i].poster}' >
+   
+   
         <p class="titulo">${musicas[i].titulo} </p> 
+      
+      
         <p class="artista"> ${musicas[i].artista}</p>
+      
+      
         <p class="album"> ${musicas[i].album}</p>
+      
+      
  </div>   
 
     `)
