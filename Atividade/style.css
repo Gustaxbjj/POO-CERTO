@@ -1,6 +1,7 @@
 body{
-gap: 15;
+gap: 15px;
 
+ padding: 20px;
     background-color: black;
 
     display: flex;
@@ -12,25 +13,27 @@ gap: 15;
     color: white;
 }
 
+
 .card{
 
     display: flex;
     
     flex-direction: row;
 
-    margin-bottom: 30px;
+    padding: 5px;
+    
+    width: 1000px;
 
+    margin-bottom: 15px;
+
+    
+    gap: 15px;
+    
+    background-color: gray;
+    
     color: white;
 
-    gap: 10px;
-
-    background-color: blue;
-
-    padding: 20px;
-
-    width: 700px;
-
-
+border-radius: 16px;
 
     /*border: solid 1px red;*/
  
@@ -41,8 +44,9 @@ gap: 15;
 
 }
 
+
 .poster{
-    padding: 16;
+    padding: 16px;
 
     width: 100px;
 
@@ -56,6 +60,8 @@ gap: 15;
 
 .titulo{
 
+padding: 16px;
+
 display: flex;
 
 flex-direction: column;
@@ -64,7 +70,11 @@ align-items: flex-start;
 
 gap: 10px;
 
+color: black;
 
+font-size: 25px;
+
+font: 800px;
 }
 
 
@@ -79,12 +89,24 @@ gap: 10px;
 
 .album{
 
-    align-items: center;
 
-    width: 25%;
+    align-items: flex-start;
+
+
+    justify-content: flex-end;
+
+    text-align: right;
+
+
 }
 .tituloEartista{
 
-    width: 50%;
+display: flex;
+
+    width: 70%;
+
+flex-direction: column;
+
+gap: 12px;
 
 }

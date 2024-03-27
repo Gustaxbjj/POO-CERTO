@@ -96,26 +96,26 @@ console.log(`${celularesE.marca} ${celularesE.modelo} --> R$ ${celularesE.Preco}
 
 
 let musicas = [];
-musicas.push(artista1);
-musicas.push(celularesB);
-musicas.push(celularesC);
-musicas.push(celularesD);
-musicas.push(celularesE);
+Playlist.push(artista1);
+Playlist.push(celularesB);
+Playlist.push(celularesC);
+Playlist.push(celularesD);
+Playlist.push(celularesE);
 
 //------------------------------------------------------    
 
-for (let i = 0; i < musicas.length; i++) {
+for (let i = 0; i < Playlist.length; i++) {
     console.log(`${artista1.marca} ${artista1.modelo} --> R$ ${artista1.Preco}`)
 }
-for (let i = 0; i < musicas.length; i++) {
+for (let i = 0; i < Playlist.length; i++) {
     document.write(`
    <div class="card">
-   <img class="foto" src='img/${musicas[i].foto}' >
-        <p class="nome">${musicas[i].marca} ${musicas[i].modelo} </p> 
-        <p class="armazenamento"> ${musicas[i].armazenameto}</p>
-        <p class="ram"> ${musicas[i].Ram}</p>
-        <p class="cor"> ${musicas[i].cor}</p>
-        <p class="preco"> R$ ${musicas[i].Preco}</p>
+   <img class="foto" src='img/${Playlist[i].foto}' >
+        <p class="nome">${Playlist[i].marca} ${Playlist[i].modelo} </p> 
+        <p class="armazenamento"> ${Playlist[i].armazenameto}</p>
+        <p class="ram"> ${Playlist[i].Ram}</p>
+        <p class="cor"> ${Playlist[i].cor}</p>
+        <p class="preco"> R$ ${Playlist[i].Preco}</p>
  </div>   
 
     `)

@@ -70,36 +70,37 @@ let artista2 = {
  }
 
 
-let musicas = []
-musicas.push(artista1)
-musicas.push(artista2)
-musicas.push(artista3)
-musicas.push(artista4)
-musicas.push(artista5)
-musicas.push(artista6)
-musicas.push(artista7)
-musicas.push(artista8)
-musicas.push(artista9)
-musicas.push(artista10)
+let Playlist = []
+Playlist.push(artista1)
+Playlist.push(artista2)
+Playlist.push(artista3)
+Playlist.push(artista4)
+Playlist.push(artista5)
+Playlist.push(artista6)
+Playlist.push(artista7)
+Playlist.push(artista8)
+Playlist.push(artista9)
+Playlist.push(artista10)
  
 
 
 
-for (let i = 0; i < musicas.length; i++) {
+for (let i = 0; i < Playlist.length; i++) {
     document.write(`
 
    <div class="card" >
 
-       <img class="poster" src='img/${musicas[i].poster}' >
+   <img class="poster" src='img/${Playlist[i].poster}' >
+   
+   
+   
+   <div class = "tituloEartista">
+   <span class="titulo">${Playlist[i].titulo}  </span> 
 
-       <div class = "tituloEartista">
-
-        <p class="titulo">${musicas[i].titulo}  </p> 
-
-        <p class="artista"> ${musicas[i].artista}</p>
+        <span class="artista"> ${Playlist[i].artista}</span>
+        
+        <p class="album"> ${Playlist[i].album}</p>
         </div>
-
-        <p class="album"> ${musicas[i].album}</p>
 
 
 
