@@ -85,6 +85,16 @@ musicas.push(artista10)
 
 
 for (let i = 0; i < musicas.length; index++) {
-    const element =  (`${artista1.titulo}, ${artista2.}`);
-    
+    console.log(`${artista1.titulo} ${celularesA.artista} --> R$ ${celularesA.album}`)
+}
+
+for (let i = 0; i < musicas.length; i++) {
+    document.write(`
+   <div class="card">
+   <img class="poster" src='img/${musicas[i].poster}' >
+        <p class="titulo">${musicas[i].titulo} ${musicas[i].artista} </p> 
+        <p class="armazenamento"> ${musicas[i].album}</p>
+ </div>   
+
+    `)
 }

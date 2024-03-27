@@ -95,27 +95,27 @@ console.log(`${celularesD.marca} ${celularesD.modelo} --> R$ ${celularesD.Preco}
 console.log(`${celularesE.marca} ${celularesE.modelo} --> R$ ${celularesE.Preco}`)
 
 
-let ListaDecelulares = [];
-ListaDecelulares.push(celularesA);
-ListaDecelulares.push(celularesB);
-ListaDecelulares.push(celularesC);
-ListaDecelulares.push(celularesD);
-ListaDecelulares.push(celularesE);
+let musicas = [];
+musicas.push(celularesA);
+musicas.push(celularesB);
+musicas.push(celularesC);
+musicas.push(celularesD);
+musicas.push(celularesE);
 
 //------------------------------------------------------    
 
-for (let i = 0; i < ListaDecelulares.length; i++) {
+for (let i = 0; i < musicas.length; i++) {
     console.log(`${celularesA.marca} ${celularesA.modelo} --> R$ ${celularesA.Preco}`)
 }
-for (let i = 0; i < ListaDecelulares.length; i++) {
+for (let i = 0; i < musicas.length; i++) {
     document.write(`
    <div class="card">
-   <img class="foto" src='img/${ListaDecelulares[i].foto}' >
-        <p class="nome">${ListaDecelulares[i].marca} ${ListaDecelulares[i].modelo} </p> 
-        <p class="armazenamento"> ${ListaDecelulares[i].armazenameto}</p>
-        <p class="ram"> ${ListaDecelulares[i].Ram}</p>
-        <p class="cor"> ${ListaDecelulares[i].cor}</p>
-        <p class="preco"> R$ ${ListaDecelulares[i].Preco}</p>
+   <img class="foto" src='img/${musicas[i].foto}' >
+        <p class="nome">${musicas[i].marca} ${musicas[i].modelo} </p> 
+        <p class="armazenamento"> ${musicas[i].armazenameto}</p>
+        <p class="ram"> ${musicas[i].Ram}</p>
+        <p class="cor"> ${musicas[i].cor}</p>
+        <p class="preco"> R$ ${musicas[i].Preco}</p>
  </div>   
 
     `)
