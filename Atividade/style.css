@@ -1,1 +1,90 @@
-.card
+body{
+gap: 15;
+
+    background-color: black;
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex-wrap: wrap;
+
+    color: white;
+}
+
+.card{
+
+    display: flex;
+    
+    flex-direction: row;
+
+    margin-bottom: 30px;
+
+    color: white;
+
+    gap: 10px;
+
+    background-color: blue;
+
+    padding: 20px;
+
+    width: 700px;
+
+
+
+    /*border: solid 1px red;*/
+ 
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+    
+
+}
+
+.poster{
+    padding: 16;
+
+    width: 100px;
+
+ object-fit: cover;
+
+
+
+ border-radius: 10px ;
+}
+
+
+.titulo{
+
+display: flex;
+
+flex-direction: column;
+
+align-items: flex-start;
+
+gap: 10px;
+
+
+}
+
+
+
+.artista{
+    
+    justify-content: flex-end;
+}
+
+
+
+
+.album{
+
+    align-items: center;
+
+    width: 25%;
+}
+.tituloEartista{
+
+    width: 50%;
+
+}

@@ -1,4 +1,4 @@
-let celularesA =
+let artista1 =
 {
     foto: 'iphone15.png',
     armazenameto: '1024 GB',
@@ -88,7 +88,7 @@ let celularesE =
 
 // -------------------------------------------------
 
-console.log(`${celularesA.marca} ${celularesA.modelo} --> R$ ${celularesA.Preco}`);
+console.log(`${artista1.marca} ${artista1.modelo} --> R$ ${artista1.Preco}`);
 console.log(`${celularesB.marca} ${celularesB.modelo} --> R$ ${celularesB.Preco}`)
 console.log(`${celularesC.marca} ${celularesC.modelo} --> R$ ${celularesC.Preco}`)
 console.log(`${celularesD.marca} ${celularesD.modelo} --> R$ ${celularesD.Preco}`)
@@ -96,7 +96,7 @@ console.log(`${celularesE.marca} ${celularesE.modelo} --> R$ ${celularesE.Preco}
 
 
 let musicas = [];
-musicas.push(celularesA);
+musicas.push(artista1);
 musicas.push(celularesB);
 musicas.push(celularesC);
 musicas.push(celularesD);
@@ -105,7 +105,7 @@ musicas.push(celularesE);
 //------------------------------------------------------    
 
 for (let i = 0; i < musicas.length; i++) {
-    console.log(`${celularesA.marca} ${celularesA.modelo} --> R$ ${celularesA.Preco}`)
+    console.log(`${artista1.marca} ${artista1.modelo} --> R$ ${artista1.Preco}`)
 }
 for (let i = 0; i < musicas.length; i++) {
     document.write(`
