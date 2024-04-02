@@ -24,37 +24,37 @@ gap: 15px;
     
     width: 1000px;
 
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
     
-    gap: 15px;
+    gap: 10px;
     
     background-color: gray;
     
     color: white;
 
-border-radius: 16px;
-
-    /*border: solid 1px red;*/
- 
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    border-radius: 16px;
 
     
-
+ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 .poster{
     padding: 16px;
 
-    width: 100px;
+    width: 200px;
 
  object-fit: cover;
 
+ border-radius: 15px ;
+ 
+ display: flex;
 
+ align-items: center;
 
- border-radius: 10px ;
+ border: solid 1px yellow;
 }
 
 
@@ -75,6 +75,8 @@ color: black;
 font-size: 25px;
 
 font: 800px;
+
+
 }
 
 
@@ -82,11 +84,16 @@ font: 800px;
 .artista{
     
     justify-content: flex-end;
+
+    flex-direction: column;
+
+    padding: 16px;
+
+ 
+
+
+
 }
-
-
-
-
 .album{
 
 
@@ -97,6 +104,7 @@ font: 800px;
 
     text-align: right;
 
+    
 
 }
 .tituloEartista{
@@ -107,6 +115,6 @@ display: flex;
 
 flex-direction: column;
 
-gap: 12px;
+gap: 16px;
 
 }
