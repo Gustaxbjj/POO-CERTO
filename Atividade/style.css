@@ -110,7 +110,7 @@ font: 800px;
 .tituloEartista{
 
 display: flex;
-
+width: 1000px;
     width: 70%;
 
 flex-direction: column;

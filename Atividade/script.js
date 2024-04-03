@@ -98,9 +98,10 @@ for (let i = 0; i < Playlist.length; i++) {
    <span class="titulo">${Playlist[i].titulo}  </span> 
 
         <span class="artista"> ${Playlist[i].artista}</span>
+        </div>
         
         <p class="album"> ${Playlist[i].album}</p>
-        </div>
+        
 
 
 
