@@ -2,71 +2,84 @@ let artista1 = {
    titulo: "Jiu-Jitsu Evolução", 
    artista: "Billi MC",
    album: "Single",
-    poster: "JiuJitsu.jpg"
+    poster: "JiuJitsu.jpg",
+    video: `4RJBJ9o0XWU?si=Kj2M67KgIwtVI0Qn`
+
 }
 
 let artista2 = {
     titulo: "Até Que Durou", 
     artista: "Pericles",
     album: "Em sua Direção",
-     poster: "AteQueDurou.jpg"
+     poster: "AteQueDurou.jpg",
+     video: `T3Y6RRSDm4o?si=IdLoJV9gsGKDkLe9`
  }
 
  let artista3 = {
-    titulo: "A morte do autotune", 
-    artista: "Matuê",
-    album: "A morte do autotune",
-     poster: "Autotune.jpg"
- }
+    titulo: "Linda voz", 
+    artista: "Pericles e Lucas Morato",
+    album: "feat",
+     poster: "Autotune.jpg",
+     video:   `AENA_nvF-L0?si=V4eb_mLpqcD2epX5`
+    }
 
  let artista4 = {
-    titulo: "Os Anjos cantam", 
-    artista: "Jorge e Matheus",
+    titulo: "Poesia acústica 09", 
+    artista: "L7NNON | CHRIS | Xamã | Lourena | Cesar Mc | Djonga | Filipe Ret",
     album: "Single",
-     poster: "OsAnjosCantam.jpeg"
+     poster: "OsAnjosCantam.jpeg",
+     video: `0N3VGsx05is?si=BJNBE3AW16Wa_OQN`
  }
 
  let artista5 = {
     titulo: "Vibe Meliodas", 
     artista: " MHRAP",
     album: "Single",
-     poster: "VibeMeliodas.jpg"
+     poster: "VibeMeliodas.jpg",
+     video: `zt_rO_o9oD8?si=5y9eiQN7lIkAYRyC`
  }
 
  let artista6 = {
     titulo: "Maldita de ex", 
     artista: "MC Leozin",
     album: "Single",
-     poster: "EX.jpg"
+     poster: "EX.jpg",
+     video: `RcL402OTE4U?si=cmgh_6Dl0V8T6snk`
  }
 
 
  let artista7 = {
-    titulo: "Lapada dela", 
-    artista: "Grupo Menos é Mais",
-    album: "Churrasquiho Menos é Mais",
-     poster: "LapadaDela.jpg"
+
+ 
+    titulo: "Vibe animes", 
+    artista: "MHRAP",
+    album: "Vibes",
+     poster: "LapadaDela.jpg",
+     video: `solD-qPJClY?si=VkpZR5D4YPG6ivW7`
  }
 
  let artista8 = {
-    titulo: "Vai me dando Corda", 
-    artista: "Grupo Menos é Mais",
-    album: "Churrasquinho Menos é Mais",
-     poster: "Vaimedando.jpg"
+    titulo: "Amor e fé", 
+    artista: "Hungria",
+    album: "Single",
+     poster: "Vaimedando.jpg",
+     video: `iZq0u3quAqo?si=jq-SxVARyFSV8aGg`
  }
 
  let artista9 = {
-    titulo: "Foi bom, Mas foi ontem", 
-    artista: "Grupo Menos é Mais",
-    album: "Confia",
-     poster: "FoiBom.jpg"
+    titulo: "Putz Animes", 
+    artista: "MHRAP",
+    album: "Single",
+     poster: "FoiBom.jpg",
+     video: `6UkoAlTLDz8?si=OzIONpTqO2vJcAeX`
  }
 
  let artista10 = {
-    titulo: "Bebe e vem me procurar ", 
-    artista: "turma do quintal",
-    album: "Single",
-     poster: "VemMEProcurar.jpg"
+    titulo: "Rap Luffy", 
+    artista: "MHRAP",
+    album: "Vibes",
+     poster: "VemMEProcurar.jpg",
+     video: `ivGBhIg-zK4?si=_I_L9vSio0rAJQAw`
  }
 
 
@@ -100,10 +113,8 @@ for (let i = 0; i < Playlist.length; i++) {
         <span class="artista"> ${Playlist[i].artista}</span>
         </div>
         
-        <p class="album"> ${Playlist[i].album}</p>
-        
-
-
+        <span class="album"> ${Playlist[i].album}</span>
+        <iframe width="200" height="200" src="https://www.youtube.com/embed/${Playlist[i].video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     </div>   
 

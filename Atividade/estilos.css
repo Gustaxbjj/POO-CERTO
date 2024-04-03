@@ -11,11 +11,13 @@ body{
 
 
 .card{
+  align-items: center; /*alinha os intems ao centro*/
     display:flex;
+    height: 20%;
     flex-direction:row;    
     gap: 15px;
     background-color: gray;
-    width: 1000px; /*largura*/
+    width: 100%; /*largura*/
     padding: 15px ;/* distancia da borda por conteudo interno*/
     margin-bottom: 16px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -25,12 +27,13 @@ body{
 }
 
 .poster{
-    width: 70px; /*  A largura vai ser 100% da largura do elemento pai*/        
-    aspect-ratio: 20px;
+
+    width: 56px; /* o width manipula a largura*/        
+    aspect-ratio: 1; /*garante  que a proporção da altura e largura seja 1*/
     object-fit:cover;
     display: flex;
-    border-radius: 8px;
-
+    border-radius: 10px;
+    height: 10%;
 
 
     /* border: solid 1px #00d9ff ; */
@@ -41,14 +44,14 @@ body{
     display: flex;
     flex-direction:column;
 
-    color:#130101;
+    color: white;
     font-size: 20px; /*tamanho da letra*/
     font-weight: 800;/*espessura da linha da letra*/
     align-items: flex-start;
     gap: 10px;
 }   
 
-.Album{
+.album{
     align-items: center;
     width: 25%;
 
@@ -58,8 +61,6 @@ body{
 }
 
 .artistas{
-    
-  
     margin-left: 20px;
     justify-content: flex-end;
 }
@@ -68,4 +69,11 @@ body{
     flex-direction: column;
     width: 55%;
     gap: 12px;
+}
+
+.video{
+
+    width: 200spx;
+height: 200px;
+
 }
