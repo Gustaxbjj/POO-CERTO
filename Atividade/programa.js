@@ -19,7 +19,7 @@ let artista2 = {
     titulo: "Linda voz", 
     artista: "Pericles e Lucas Morato",
     album: "feat",
-     poster: "Autotune.jpg",
+     poster: "lindavoz.jpg",
      video:   `AENA_nvF-L0?si=V4eb_mLpqcD2epX5`
     }
 
@@ -27,7 +27,7 @@ let artista2 = {
     titulo: "Poesia acústica 09", 
     artista: "L7NNON | CHRIS | Xamã | Lourena | Cesar Mc | Djonga | Filipe Ret",
     album: "Single",
-     poster: "OsAnjosCantam.jpeg",
+     poster: "poesia9.jpg",
      video: `0N3VGsx05is?si=BJNBE3AW16Wa_OQN`
  }
 
@@ -54,7 +54,7 @@ let artista2 = {
     titulo: "Vibe animes", 
     artista: "MHRAP",
     album: "Vibes",
-     poster: "LapadaDela.jpg",
+     poster: "Sad.jpg",
      video: `solD-qPJClY?si=VkpZR5D4YPG6ivW7`
  }
 
@@ -62,7 +62,7 @@ let artista2 = {
     titulo: "Amor e fé", 
     artista: "Hungria",
     album: "Single",
-     poster: "Vaimedando.jpg",
+     poster: "AmoreFé.jpg",
      video: `iZq0u3quAqo?si=jq-SxVARyFSV8aGg`
  }
 
@@ -70,7 +70,7 @@ let artista2 = {
     titulo: "Putz Animes", 
     artista: "MHRAP",
     album: "Single",
-     poster: "FoiBom.jpg",
+     poster: "Putzanimes.jpg",
      video: `6UkoAlTLDz8?si=OzIONpTqO2vJcAeX`
  }
 
@@ -78,7 +78,7 @@ let artista2 = {
     titulo: "Rap Luffy", 
     artista: "MHRAP",
     album: "Vibes",
-     poster: "VemMEProcurar.jpg",
+     poster: "rapDolufy.jpg",
      video: `ivGBhIg-zK4?si=_I_L9vSio0rAJQAw`
  }
 
@@ -103,7 +103,7 @@ for (let i = 0; i < Playlist.length; i++) {
 
    <div class="card" >
 
-   <img class="poster" src='img/${Playlist[i].poster}' >
+   <img class="poster" src='img2/${Playlist[i].poster}' >
    
    
    
