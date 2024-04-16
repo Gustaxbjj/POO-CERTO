@@ -96,7 +96,7 @@ Playlist.push(artista9)
 Playlist.push(artista10)
  
 
-
+const index = document.querySelector('aS')
 
 for (let i = 0; i < Playlist.length; i++) {
     document.write(`
