@@ -11,7 +11,7 @@ body{
 
 
 .card{
-  align-items: center; /*alinha os intems ao centro*/
+  align-items: center; /*alinha os intens ao centro*/
     display:flex;
     height: 20%;
     flex-direction:row;    
