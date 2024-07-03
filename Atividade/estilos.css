@@ -5,6 +5,8 @@ body{
     flex-direction:column;
     flex-wrap: wrap; /*  permite a quebra de linha*/
 
+    color: black;
+
     /*border: solid 1px #0e0000;*/
     gap: 20px;
 }
