@@ -1,7 +1,7 @@
  class ContaDeEnergia  {
     
 
-    constructor(wConsumo,dataDeVencimento,nomeDoDestinatario,taxaDeiluminacao){
+    constructor(dataDeVencimento,nomeDoDestinatario,taxaDeiluminacao,wConsumo){
         this.dataDeVencimento = dataDeVencimento;
         this.nomeDoDestinatario = nomeDoDestinatario;
         this.taxaDeiluminacao = taxaDeiluminacao;
