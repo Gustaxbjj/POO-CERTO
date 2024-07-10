@@ -4,7 +4,7 @@
     numero: '001',
     saldo :0.50
 }
-
+//lembrar de usar new quando for mexer com class
 let conta2 = new Conta = {
     nomeDoTitular:  'Iran',
     agencia:  'Itau',
