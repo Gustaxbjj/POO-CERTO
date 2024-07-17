@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 04</title>
+    </head>
+    <body>
+        <h1> Números aleatorios entre 0 e 50</h1>
+        <img
+            src="https://img.freepik.com/fotos-premium/numeros-aleatorios-em-uma-planilha-em-colunas-e-linhas_350926-115.jpg?w=740"
+            alt="Números" class="altas">
+        <form id="verificador">
+        
+        <p> Insira um numero: <input type="number" name="numero" id="nun1"> </p>
+
+        <p> Resultado gerado: </p> <h3 id="i"> </h3>
+        <button onclick="sorteio()"> Gerar Estastica</button>
+
+        <p> QUANTIDADE DE NUMEROS PARES: </p> <h2 id="i"> </h2>
+        <p> QUANTIDADE DE NÚMEROS MENOS QUE 04: </p> <h2 id="resul2"> </h2>
+        <p> MAIOR NÚMERO ALEATORIO: </p> <h2 id="resul3"> </h2>
+      </form>
+      <h2></h2>
+      
+    <pre></pre>
+        <script>
+        
+        const form = document.querySelector("verificador")
+        const exibir = document.querySelector("h2")
+        const exibir0 = document.querySelector("pre")
+        
+        form.addEventListener("submit", (e) => { 
+        e.preventDefault()
+        let sort 
+        function sorteio(){
+     
+     
+       let Numero = document.getElementById("nun1").value;
+       let i = document.getElementById("i").value;
+     
+       for (let i = 0; i <= Numero; i++) {
+
+       Math.floor((Math.random()*51)+ Numero)  
+       
+
+}
+    exibir.innerText = "Resultados"
+    exibir0.textContent = text
+   
+  }})
+  
+   
+</script>
+    </body>
+</html>
