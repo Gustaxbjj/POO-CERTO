@@ -1,0 +1,17 @@
+body{
+    background-color: #999999;
+    font-size:28px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    color: #999999;
+    background-color: black;
+   flex-wrap: wrap;
+   font-size: 32px;
+}
+
+.card:nth-child(2n){
+    background-color: black;
+}

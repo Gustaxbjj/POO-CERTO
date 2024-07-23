@@ -21,11 +21,12 @@ let produtoTemp = new Produto(
     inputDescricao.value,
     inputPreco.value
     )
+    
    carrinhoDeCompras.adicionarProduto(produtoTemp);
    console.log(carrinhoDeCompras);
+
+   desenharCarrinhoDeCompras(carrinhoDeCompras, containerCards);
 } 
-
-
 
 
 
@@ -33,5 +34,4 @@ let produtoTemp = new Produto(
 //Sempre que o botao for clicado o fofoqueiro irá chamar a função 'quandoClicarNoBotão'
 buttonAdicionar.addEventListener('click', quandoClicarNoBotao);
 
-//--------------------------
 
