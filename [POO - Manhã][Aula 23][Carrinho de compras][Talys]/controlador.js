@@ -1,3 +1,4 @@
+//pegando elementos do html e colocando em variavris:
 let inputID = document.getElementById('iptID');
 let inputDescricao = document.getElementById('iptDescricao');
 let inputPreco= document.getElementById('iptPrecoUnitario');
@@ -5,22 +6,32 @@ let buttonAdicionar = document.getElementById('btnAdicionar')
 let containerCards = document.getElementById('containerCards')
 
 
+let carrinhoDeCompras = new CarrinhoDeCompras();
+
+
+//Função que sera chamado quando o botão Adicionar for clicado
 function quandoClicarNoBotao(){
     console.log(inputDescricao.value)
+
+    //criação de um objeto na classe Produto
+    //O construtor esta pegando valores inputs
+let produtoTemp = new Produto(
+    inputID.value,
+    '',
+    inputDescricao.value,
+    inputPreco.value
+    )
+   carrinhoDeCompras.adicionarProduto(produtoTemp);
+   console.log(carrinhoDeCompras);
 } 
 
-buttonAdicionar.addEventListener( 'click', quandoClicarNoBotao);
 
 
-let tecnologia = new Produto('1293448', '', 'mouse rgb', 120)
-let roupas = new Produto('13693274', '', 'rash guard-Brasil', 190)
 
-let carrinho = new CarrinhoDeCompras()
 
-carrinho.adicionarProduto(tecnologia)
-carrinho.adicionarProduto(roupas)
-
-console.log(carrinho);
+//Adiciona um 'fofoqueiro' vulgo Karol ao botão Adicionar
+//Sempre que o botao for clicado o fofoqueiro irá chamar a função 'quandoClicarNoBotão'
+buttonAdicionar.addEventListener('click', quandoClicarNoBotao);
 
 //--------------------------
 
