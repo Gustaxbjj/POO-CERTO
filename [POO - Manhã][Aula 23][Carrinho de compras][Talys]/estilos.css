@@ -13,5 +13,5 @@ body{
 }
 
 .card:nth-child(2n){
-    background-color: black;
+    background-color: whitesmoke;
 }

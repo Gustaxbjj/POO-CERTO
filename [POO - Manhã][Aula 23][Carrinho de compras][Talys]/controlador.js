@@ -26,6 +26,7 @@ let produtoTemp = new Produto(
    console.log(carrinhoDeCompras);
 
    desenharCarrinhoDeCompras(carrinhoDeCompras, containerCards);
+    console.calc(calcularTotal)
 } 
 
 

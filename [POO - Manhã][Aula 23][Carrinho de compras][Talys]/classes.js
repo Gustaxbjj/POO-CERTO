@@ -25,4 +25,13 @@ class CarrinhoDeCompras{
 
     }
 
+
+            calcularTotal(){
+                for (let i = 0; i < this.listaDeProdutos.length; i++) {
+                 total += this.listaDeProdutos[i].precoUnitario
+                
+                }
+                return(total)
+            }
+
 }

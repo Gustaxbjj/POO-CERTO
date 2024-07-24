@@ -4,7 +4,7 @@ function desenharCarrinhoDeCompras(carrinho, containerHtml){
     containerHtml.innerHTML = ''
 
     for (let i = 0; i < carrinho.listaDeProdutos.length; i++) {
-    containerHtml.innerHTML +=`
+    containerHtml.innerHTML += `
     <div class='card'>
     <span>${carrinho.listaDeProdutos[i].id}</span>
     <span>${carrinho.listaDeProdutos[i].descricao}</span>
