@@ -1,4 +1,4 @@
-function desenharCarrinhoDeCompras(carrinho, containerHtml){
+function desenharCarrinhoDeCompras(carrinho, containerHtml,totalHTML){
 
     //esvaziando o containerHTML antes do for preenchê-los
     containerHtml.innerHTML = ''
@@ -9,8 +9,9 @@ function desenharCarrinhoDeCompras(carrinho, containerHtml){
     <span>${carrinho.listaDeProdutos[i].id}</span>
     <span>${carrinho.listaDeProdutos[i].descricao}</span>
     <span>R$${carrinho.listaDeProdutos[i].precoUnitario}</span>
-    </div>    
-    `;
+    </div> 
 
+    `;
+    totalHTML.innerHTML = `Preço Total:${carrinhoDeCompras.calcularTotal()}`
     }
 }

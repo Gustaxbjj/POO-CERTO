@@ -4,7 +4,7 @@ constructor(id, foto, descricao, precoUnitario ){
     this.id = id;
     this.foto = foto;
     this.descricao = descricao;
-    this.precoUnitario = precoUnitario;
+    this.precoUnitario = Number(precoUnitario);
 }
 
 
@@ -27,11 +27,13 @@ class CarrinhoDeCompras{
 
 
             calcularTotal(){
+                let total = 0
                 for (let i = 0; i < this.listaDeProdutos.length; i++) {
                  total += this.listaDeProdutos[i].precoUnitario
                 
                 }
                 return(total)
+              
             }
 
 }

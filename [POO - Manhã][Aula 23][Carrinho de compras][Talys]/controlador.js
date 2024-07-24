@@ -4,6 +4,7 @@ let inputDescricao = document.getElementById('iptDescricao');
 let inputPreco= document.getElementById('iptPrecoUnitario');
 let buttonAdicionar = document.getElementById('btnAdicionar')
 let containerCards = document.getElementById('containerCards')
+let cTotal = document.getElementById('containerTotal')
 
 
 let carrinhoDeCompras = new CarrinhoDeCompras();
@@ -25,8 +26,9 @@ let produtoTemp = new Produto(
    carrinhoDeCompras.adicionarProduto(produtoTemp);
    console.log(carrinhoDeCompras);
 
-   desenharCarrinhoDeCompras(carrinhoDeCompras, containerCards);
-    console.calc(calcularTotal)
+   desenharCarrinhoDeCompras(carrinhoDeCompras, containerCards, cTotal);
+   
+    
 } 
 
 
