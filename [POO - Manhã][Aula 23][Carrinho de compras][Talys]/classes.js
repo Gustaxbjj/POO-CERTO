@@ -1,9 +1,10 @@
 class Produto{
 
-constructor(id, foto, descricao, precoUnitario ){
+constructor(id, foto, descricao, marca ,precoUnitario ){
     this.id = id;
     this.foto = foto;
     this.descricao = descricao;
+    this.marca = marca
     this.precoUnitario = Number(precoUnitario);
 }
 

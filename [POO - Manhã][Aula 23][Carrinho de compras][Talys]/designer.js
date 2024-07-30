@@ -6,12 +6,15 @@ function desenharCarrinhoDeCompras(carrinho, containerHtml,totalHTML){
     for (let i = 0; i < carrinho.listaDeProdutos.length; i++) {
     containerHtml.innerHTML += `
     <div class='card'>
-    <span>${carrinho.listaDeProdutos[i].id}</span>
-    <span>${carrinho.listaDeProdutos[i].descricao}</span>
-    <span>R$${carrinho.listaDeProdutos[i].precoUnitario}</span>
+        <span>${carrinho.listaDeProdutos[i].id}</span>
+        <span>${carrinho.listaDeProdutos[i].descricao}</span>
+        <span>${carrinho.listaDeProdutos[i].marca}</span>
+        <span>R$${carrinho.listaDeProdutos[i].precoUnitario}</span>
+
     </div> 
 
     `;
-    totalHTML.innerHTML = `Preço Total:${carrinhoDeCompras.calcularTotal()}`
+    
     }
+    totalHTML.innerHTML = `Preço Total: R$${carrinhoDeCompras.calcularTotal()}`
 }
