@@ -1,18 +1,32 @@
 body{
-    background-color: #999999;
+    background-color: grey;
     font-size:28px;
-    
+    font-family: "Exo", sans-serif
 }
 
 .card{
     display: flex;
     justify-content: space-around;
-    color: #999999;
+    color: white;
     background-color: black;
    flex-wrap: wrap;
    font-size: 32px;
 }
 
 .card:nth-child(2n){
-    background-color: whitesmoke;
+    background-color:aqua;
+}
+
+input[type="text"], input[type='number']{
+    border: solid 3px black;
+    font-size:20px;
+    font-family: "Exo", sans-serif; 
+
+}
+
+button{
+    font-size: 20px;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    background-color: powderblue;
 }
