@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+
+.card{
+    background-color: pink;
+    width: 250px;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    gap: 20;
+}
+
+.conteudo{
+    font-family: "Open Sans", sans-serif;
+    border: solid 3px coral;
+    display: flex; 
+    flex-direction: column;  
+    gap: 10px;  
+    border-radius: 12px;
+}
+
+.pacotes{
+    width: fit-content;
+    border: solid 1px purple;
+    flex-wrap: wrap;
+}
+
+.desconto{
+    width: fit-content;
+    border: solid 1px red;
+    flex-wrap: wrap;
+    
+}
+
+.texto{
+    width: fit-content;
+    border: solid 1px bisque;
+    flex-wrap: wrap;
+    
+}
