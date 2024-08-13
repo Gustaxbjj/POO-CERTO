@@ -1,0 +1,10 @@
+.negrito{
+    font-weight: 700;
+}
+#informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+    flex-wrap: wrap;
+}

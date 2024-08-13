@@ -1,5 +1,9 @@
-body{
+.negrito{
+    font-weight: 700;
+}
 
-    background-color: grey
-
+#informacoes{
+    display: flex;
+    flex-direction: column; /*elemetos filhos ficam na vertical*/
+    gap: 5px; /*espaço entre os elementos filhos*/
 }
