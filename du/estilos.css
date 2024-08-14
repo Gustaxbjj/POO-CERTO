@@ -1,0 +1,10 @@
+.negrito{
+    font-weight: 700;
+}
+#menu{
+    display: flex;
+    flex-direction: row; /*elemetos filhos ficam na vertical*/
+    gap: 12px; /*espaço entre os elementos filhos*/
+   justify-content:space-around;
+    border: solid 2px black;
+}

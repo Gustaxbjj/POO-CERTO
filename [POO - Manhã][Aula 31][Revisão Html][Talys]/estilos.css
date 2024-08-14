@@ -4,6 +4,8 @@
 
 #informacoes{
     display: flex;
-    flex-direction: column; /*elemetos filhos ficam na vertical*/
+    flex-direction: row; /*elemetos filhos ficam na vertical*/
+    justify-content: space-around ;
+    border: solid 2px black; /* cria uma borda em volta do conteudo*/
     gap: 5px; /*espaço entre os elementos filhos*/
 }
