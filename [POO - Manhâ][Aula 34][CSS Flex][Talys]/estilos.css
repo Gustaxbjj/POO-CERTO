@@ -1,0 +1,100 @@
+body{
+    background-color:black;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card1{
+  
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: gray;
+    padding: 12px;
+    gap: 12px;
+}
+
+.table01Num01{
+    background-color: red;
+    height: 20px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left:  25px;
+    padding-right: 25px; 
+    color: white;
+}
+
+.card2{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: gray;
+    padding: 12px;
+    gap: 12px;
+}
+
+.table02Num01{
+    color: black;
+    background-color: orange;
+    padding: 12;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left:  25px;
+    padding-right: 25px; 
+
+}
+
+.card3{
+    border: solid green;
+    display:flex;
+    justify-content:end;
+    flex-direction: row;
+    background-color: gray;
+    padding: 12px;
+    gap: 12px;
+}
+
+.table3Num01{
+    background-color: green;
+    height: 20px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left:  25px;
+    padding-right: 25px; 
+    color: black;
+}
+
+.card4{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    background-color: gray;
+    padding: 12px;
+    gap: 12px;
+}
+
+.table4Num01{
+    background-color: cyan;
+    height: 90px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left:  15px;
+    padding-right: 15px; 
+    color: black;
+}
