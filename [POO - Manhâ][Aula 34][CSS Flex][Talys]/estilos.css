@@ -55,7 +55,7 @@ body{
 }
 
 .card3{
-    border: solid green;
+  
     display:flex;
     justify-content:end;
     flex-direction: row;
@@ -79,7 +79,7 @@ body{
 
 .card4{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-direction: row;
     background-color: gray;
     padding: 12px;
