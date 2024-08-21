@@ -2,31 +2,94 @@ body{
     background-color: black;
 }
 
+.PaiDeTodos{
+    border: solid 2px red;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    gap: 16px;
+}
+
 .card{
     border-radius: 5px;
     background-color: gray;
     display: flex;
     flex-direction: column;
+    object-fit: cover;
     width: 300px;
     gap: 12px;
 }
 .item{
+ 
 display: flex;
 flex-direction: row;
+align-items: center;
 padding: 12px;
+padding-left: 12px;
+gap: 12px;
+}
+
+.card2{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px;
+}
+
+.text{
+display: flex;
+flex-direction: row;
+justify-content: end;
+gap: 10px;
+}
+
+.seta{
+    display: flex;
+    flex-direction: row ;
+}
+
+.cardimg{
+  
+    border-radius: 50px;
+display: flex;
+flex-direction: row;
+height: 300px;
+width: 300px;
+gap: 20px;
+}
+
+.foto{
+border-radius: 100px ;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+object-fit: cover;
+height: 250px;
+width: 250px;
+}
+
+.nome{
+ 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    font-size: 25px;
+
 }
 
 .imagem1{
-    
+
     height: 40px;
     width: 40px;
     justify-content:end;
     display: flex;
     flex-direction: row;
-}
-
-
-.imagem2{
-    height: 40px;
-    width: 40px;
 }
