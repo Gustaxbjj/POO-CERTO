@@ -1,0 +1,13 @@
+.container-pai{
+
+    display: flex;
+    flex-direction:row;
+    height: 10px;
+    gap: 15px;
+}
+.pessoa1{
+    display: flex;
+    flex-direction: column ;
+    border: solid 100px red;
+
+}

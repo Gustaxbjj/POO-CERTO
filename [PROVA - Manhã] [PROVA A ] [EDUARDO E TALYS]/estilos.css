@@ -8,7 +8,7 @@
     border: solid 1px rgb(67, 255, 67);
 }
 .topo{
-    padding: 20px;
+    padding: 20px; 
     border: solid 1px red;
     display: flex;
     flex-direction: row;
