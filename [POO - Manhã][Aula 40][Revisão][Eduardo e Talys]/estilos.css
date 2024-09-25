@@ -1,13 +1,31 @@
-.container-pai{
-
-    display: flex;
-    flex-direction:row;
-    height: 10px;
-    gap: 15px;
+body{
+    background-color: black;
 }
-.pessoa1{
-    display: flex;
-    flex-direction: column ;
-    border: solid 100px red;
 
+.paiDeTodos{
+    border: solid 2px red;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+   gap: 16px;
+}
+
+
+.texto-cards{
+
+    border: solid 2px blue;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 8px;
+
+    width: 250px;
+    height: 300px;
+    color: #4c7497;
+}
+
+.nomeDaPessoa{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
 }
