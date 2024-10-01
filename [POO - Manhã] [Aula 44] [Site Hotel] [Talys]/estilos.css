@@ -1,0 +1,14 @@
+.logotipo{
+    height: 200px;
+   
+    
+}
+
+.praia{
+    display: flex;
+    flex-direction: row;
+    object-fit:cover;
+ 
+    height: 700px;
+    
+}
