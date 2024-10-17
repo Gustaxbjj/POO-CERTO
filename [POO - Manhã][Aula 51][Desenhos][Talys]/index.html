@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="topo">
+        
+        <form id="caixas" action="#" onsubmit="event.preventDefault"()>
+           
+           <div class="caixinhas">
+               <label for="iptAno">Ano de lançamento:</label>
+               <input type="text"  id="iptAno" >
+           </div>
+
+           <div class="caixinhas">
+            <label for="iptTitulo">Titulo:</label>
+               <input type="text"  id="iptTitulo">
+           </div>
+
+           <div class="caixinhas">
+            <label for="iptAutor">Autor:</label>
+               <input type="text"  id="iptAutor">
+           </div>
+
+           <div class="caixinhas">
+            <label for="iptGenero">Gênero:</label>
+               <input type="text"  id="iptGenero">
+           </div>
+           <br>
+           <input type="button" value="Filtrar" id="btnFiltrar">
+        </form>
+        
+
+    </div>
+
+    <div id="containerCards">
+
+    </div>
+
+
+    <script src="objetos.js"></script>
+    <script src="designer.js"></script>
+    <script src="controlador.js"></script>
+</body>
+</html>
