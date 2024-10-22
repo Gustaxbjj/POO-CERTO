@@ -1,0 +1,12 @@
+.card{
+    border: solid 3px red;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.escudo{
+    width: 200px;
+    height: 200px;
+
+}

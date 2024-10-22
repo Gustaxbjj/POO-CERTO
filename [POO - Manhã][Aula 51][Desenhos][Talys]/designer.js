@@ -1,5 +1,5 @@
 function desenharCards(tagContainer, lista){
-    tagContainer.innerHTML = ''
+    tagContainer.innerHTML = '';
 
     for (let i = 0; i < lista.length; i++) {
         tagContainer.innerHTML += `
