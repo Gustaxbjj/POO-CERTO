@@ -1,7 +1,35 @@
+#containerCards{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 22px;
+}
+
+.topo{
+    border:solid 2px blue ; 
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    padding: 12px;
+    
+    
+}
+
 .card{
-    border: solid 3px red;
+    border-radius:12px ;
+    border: solid 3px whitesmoke;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+
+
+}
+
+.escudo{
+    border-radius: 100px;
 
 }
 
