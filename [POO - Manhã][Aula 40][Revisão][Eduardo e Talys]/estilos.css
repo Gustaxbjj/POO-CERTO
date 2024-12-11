@@ -1,3 +1,31 @@
-*{
-    background-color: #0308;
+body{
+    background-color: black;
+}
+
+.paiDeTodos{
+    border: solid 2px red;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+   gap: 16px;
+}
+
+
+.texto-cards{
+
+    border: solid 2px blue;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 8px;
+
+    width: 250px;
+    height: 300px;
+    color: #4c7497;
+}
+
+.nomeDaPessoa{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
 }

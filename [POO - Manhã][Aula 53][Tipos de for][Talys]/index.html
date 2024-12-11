@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="topo">
+    
+    <form action="#" onsubmit="event.preventDefault()">
+        <label for="iptNome"> Nome:</label>
+        <input type="text" id="iptNome">
+        
+        <label for="iptEstado"> Estado:</label>
+        <input type="text"  id="iptEstado">
+
+      
+
+        <label for="iptAno"> Ano:</label>
+        <input type="number"  id="iptAno">
+
+        <br>
+        <label for="iptEscudo"> Escudo:</label>
+        <input type="file"  id="iptEscudo">
+
+      
+
+        
+        <input type="button"  id="btnCadastrar" value="Cadastrar">
+    </form>
+
+</div>
+        <div id="containerCards"></div>
+
+    <script src="objetos.js"></script>
+    <script src="designer.js"></script>
+    <script src="controlador.js"></script>
+</body>
+</html>

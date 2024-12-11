@@ -1,0 +1,56 @@
+.pagina{
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: solid 1px rgb(67, 255, 67);
+}
+.topo{
+    padding: 20px; 
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+
+}
+.grupo-cards{
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    border: solid 1px  red;
+}
+.card{
+    padding: 20px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border-radius: 12px;
+    border: solid 3px  blue;
+}
+/*----------------------------------------*/
+.Icone{
+    border: solid 1px red;
+    width: 24px;
+    height: 24px;
+
+}
+.Titulo{
+    border: solid 1px red;
+   font-size: 24px;
+   font-weight: bold;
+
+}
+.Texto{
+    border: solid 1px red;
+}
+.link{
+    border: solid 1px red;
+    color: blueviolet;
+
+}
