@@ -1,0 +1,27 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+    align-items: center;
+}
+
+.logotipo{
+    width: 100px;
+}
+
+
+
+.link{
+    color: #dcdcdc;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.selecionado{
+    font-weight: 800;
+}
+
+.link:hover{
+    color: #999999;
+}

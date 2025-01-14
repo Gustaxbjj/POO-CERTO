@@ -1,0 +1,24 @@
+.selecao-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: fit-content;
+
+    border: solid 3px blue;
+}
+
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+    margin-bottom: 64px;
+}
+
+.titulo{
+    color: #efefef;
+
+    font-size: 52px;
+    font-weight: 400;
+}
