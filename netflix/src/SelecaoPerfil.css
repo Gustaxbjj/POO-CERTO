@@ -2,9 +2,14 @@
     display: flex;
     flex-direction: column ;
     align-items: center;
+   
+    padding: 530px;
+
     width: fit-content;
-    
-    border: solid 3px blue;
+    width: 100vh;
+    height: 100vw;
+    border: solid blue;
+
 }
 
 .container-cards{
@@ -17,7 +22,7 @@
 
 .titulo{
     color: #efefef;
-
+    
     font-size: 52px;
     font-weight: 400;
 }

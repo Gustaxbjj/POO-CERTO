@@ -5,17 +5,32 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SelecaoPerfil from './SelecaoPerfil';
 import NavBar from './NavBar';
+import Menulateral from './Menulateral'
 import CardPerfil from './CardPerfil';
 
-
+/*importação das imagens*/ 
+import chase from "./img/chase.webp"
+import marshall from "./img/marshall.png"
+import rocky from "./img/rocky.png"
+import skye from "./img/skye.jpg"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+//--------------------------------------------------------
+const usuario1 = {nome: "Talys", foto: marshall}
+const usuario2 = {nome: "fernando", foto: rocky}
+const usuario3 = {nome: "diego", foto: skye}
+const usuario4 = {nome: "maria", foto: chase}
+
+const usuarios = [usuario1,usuario2,usuario3,usuario4]
+//------------------------------------
 
 root.render(
   <React.StrictMode>
     <NavBar />
-    <SelecaoPerfil  />
+
+    <SelecaoPerfil listaDeUsuarios={usuarios} />
+    <Menulateral />
   </React.StrictMode>
 );
 
