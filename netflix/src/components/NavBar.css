@@ -15,7 +15,7 @@
 
 .link{
     color: #dcdcdc;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -25,5 +25,12 @@
 
 .link:hover{
     color: #999999;
+}
+
+.cartao{
+ display: flex;
+ flex-direction: row;
+font-size: 30px;
+ color: white;
 }
 

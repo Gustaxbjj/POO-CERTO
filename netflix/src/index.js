@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import SelecaoPerfil from './SelecaoPerfil';
-import NavBar from './NavBar';
-import Menulateral from './Menulateral'
-import CardPerfil from './CardPerfil';
+import reportWebVitals from './components/reportWebVitals';
+import SelecaoPerfil from './components/SelecaoPerfil';
+import NavBar from './components/NavBar';
+import Menulateral from './components/Menulateral'
 
 /*importação das imagens*/ 
 import chase from "./img/chase.webp"

@@ -1,6 +1,6 @@
 // 1ª seção: importações ----------------------------------------
 import './CardPerfil.css'
-import perfil from './perfil.png'
+
 
 /*As entradas de um componente devem estar entre chaves*/ 
 

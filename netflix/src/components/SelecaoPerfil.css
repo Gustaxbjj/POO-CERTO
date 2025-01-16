@@ -2,13 +2,9 @@
     display: flex;
     flex-direction: column ;
     align-items: center;
-   
-    padding: 530px;
-
-    width: fit-content;
-    width: 100vh;
-    height: 100vw;
-    border: solid blue;
+    gap: 15px;
+    border: solid 2px blue;
+    
 
 }
 

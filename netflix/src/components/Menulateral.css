@@ -1,0 +1,35 @@
+.Menu-lateral{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 40px;
+    color: black;
+    background-color:white;
+    border: solid 2px red ;
+    height: 250px;
+    width: 200px;
+    gap: 16px;
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+    font-size: 20px;
+    gap: 15px;
+}
+
+.icon{  
+   display: flex;
+   flex-direction: row;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    align-items: center;
+    gap: 10px;
+}
