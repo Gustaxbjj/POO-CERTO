@@ -7,6 +7,8 @@ import marshall from "../img/marshall.png"
 import rocky from "../img/rocky.png"
 import skye from "../img/skye.jpg"
 
+
+
 function Profiles(){
     const usuario1 = {nome: "Talys", foto: marshall}
     const usuario2 = {nome: "fernando", foto: rocky}

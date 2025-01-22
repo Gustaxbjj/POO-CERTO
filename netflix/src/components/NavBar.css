@@ -1,20 +1,27 @@
 .nav-bar{
+    /* border: solid red; */
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    justify-content: space-around;
+    gap: 10px;
     font-size: 10px;
     align-items: center;
+    padding: 10px;
+   
+    
+    
 }
 
 .logotipo{
-    font-size: 50px;
-    width: 100px;
+        /* border: solid red; */
+        font-size: 100px;
+        width: 150px;
 }
 
 
 
 .link{
-    color: #dcdcdc;
+    color: black;
     font-size: 20px;
     font-weight: 500;
 }
@@ -31,6 +38,25 @@
  display: flex;
  flex-direction: row;
 font-size: 30px;
- color: white;
+ color: black;
 }
 
+.icon-conta{
+    /* border:solid 2px blue;    */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end ;
+    padding: 10px;
+    color: black;
+    gap:15px ;
+    width: 50%;
+}
+
+.humano{
+    font-size: 40px;
+}
+
+.txt-conta{
+    font-size: 20px;
+}

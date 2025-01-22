@@ -7,6 +7,7 @@
     width: fit-content;
 
     /* border: solid 2px red; */
+    text-decoration: none;
 }
 
 .card-perfil:hover > .foto{
@@ -27,6 +28,7 @@
     color: #999999;
     font-size: 18px;
     font-weight: 500;
+  
 }
 
 .card-perfil:hover > .nome{
