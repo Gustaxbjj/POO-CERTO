@@ -13,12 +13,13 @@ import { MdOutlinePersonOutline } from "react-icons/md";
             <div className='nav-bar'>
                 <img className='logotipo' src={logo} />
                 
-            
+          
                 <a className='link'> Início </a>
                 <a className='link'> Series </a>
                 <a className='link'> Bombando </a>
                 <a className='link'> Minha lista </a>
                 <a className='link'> Navegar por idioma </a>
+    
                 
                 <div className='icon-conta'>
                 <MdOutlinePersonOutline className='humano' />

@@ -1,0 +1,15 @@
+.btn{
+    background-color: white;
+    flex-direction: row;
+    width:150px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 3px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.tudo{
+    padding-top: 200px;
+}

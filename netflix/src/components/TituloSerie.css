@@ -1,0 +1,61 @@
+.icons{
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 400px;
+    padding-left: 60px;
+    
+}
+
+.icons-info{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nomedaserie{
+    display: flex;
+    flex-direction: row;
+    font-size: 100px;
+    color: red;
+}
+.icone{
+    
+   
+    height: 30px;
+    width: 30px;
+    color: red;
+
+}
+
+.serie{
+    font-size: 20px;
+    color: white;
+}
+
+.icons-neflix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: red;
+
+}
+.meio{
+    color: white;
+    font-size: 40px;
+}
+.idade{
+    background-color: red;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.vol{
+    border: solid 2px white;
+    padding: 5px;
+    border-radius: 30px;
+    color: white;
+    
+}

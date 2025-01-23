@@ -1,6 +1,7 @@
 import './Profiles.css'
 import SelecaoPerfil from '../components/SelecaoPerfil'
 
+
 /*importação das imagens*/ 
 import chase from "../img/chase.webp"
 import marshall from "../img/marshall.png"

@@ -1,0 +1,12 @@
+.info{
+    background-color:rgb(179, 179, 179);
+    width:150px;
+    flex-direction: row;
+    height: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
