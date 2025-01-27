@@ -2,7 +2,7 @@ import  './TituloSerie.css'
 import Nomeserie from './Nomeserie'
 import BtnAssistir from './BtnAssistir';
 import BtnInfo from './BtnInfo';
-import Round6Nome from'../imgHome/Round6Nome.png'
+import '../imgHome/Round6Nome.png'
 import { SiNetflix } from "react-icons/si";
 import { TbNumber16Small } from "react-icons/tb";
 import { FaVolumeHigh } from "react-icons/fa6";
