@@ -10,13 +10,16 @@ function Home(){
     return(
         <div className='tela-home'>
             {/* <img className='sakamoto' src={Sakamoto}/> */}
+            <div className='navbar'>
             <NavBar />
+            </div>
             {/* <Idade /> */}
 
                 <div className='titulo-serie'>
 
                     <TituloSerie/>
                 </div>
+
         </div>  
         ); }
 

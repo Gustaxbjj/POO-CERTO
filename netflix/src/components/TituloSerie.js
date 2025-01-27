@@ -2,6 +2,8 @@ import  './TituloSerie.css'
 import Nomeserie from '../imgHome/Round6Nome.png'
 import BtnAssistir from './BtnAssistir';
 import BtnInfo from './BtnInfo';
+import Carrosel from './Carrosel'
+import Carrosel2 from './Carrosel2'
 import { SiNetflix } from "react-icons/si";
 import { TbNumber16Small } from "react-icons/tb";
 import { FaVolumeHigh } from "react-icons/fa6";
@@ -9,6 +11,7 @@ import { FaVolumeHigh } from "react-icons/fa6";
 function  TituloSerie (){
 
     return(
+
         <div className='icons'>
             
                 <div className='icons-netflix'>
@@ -32,8 +35,15 @@ function  TituloSerie (){
                 </div>
             </div>
 
+
+            <Carrosel />
+            <Carrosel2 />
+
         </div>
 
+
+       
+    
     );
 }
 export default TituloSerie;
