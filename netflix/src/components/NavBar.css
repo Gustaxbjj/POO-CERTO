@@ -47,16 +47,16 @@ font-size: 30px;
     justify-content: flex-end ;
     padding: 15px;
     color: white;
-    gap:20px ;
+    gap:10px ;
     width: 50%;
 }
 
 .humano{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .txt-conta{
     font-size: 20px;
-    right: 30px;
+    
 }
 
