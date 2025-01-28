@@ -1,33 +1,67 @@
-import  './Carrosel.css' 
-import lacasa from '../imgCarrosels/lacasa.jpeg'
-import lucifer from '../imgCarrosels/lucifer.jpeg'
-import moshuku from '../imgCarrosels/moshuku.jpeg'
-import narcos from '../imgCarrosels/narcos.jpeg'
-import suits from '../imgCarrosels/suits.jpeg'
-import unsolved from '../imgCarrosels/unsolved.jpeg'
-import vampiro from '../imgCarrosels/vampiro.jpeg'
-import wolf from '../imgCarrosels/wolf.jpeg'
+import  './Carrosel3.css' 
+import flash from '../imgCarrosels/flash.jpg'
+import boruto from '../imgCarrosels/boruto.webp'
+import cobrakai from '../imgCarrosels/cobrakai.jpg'
+import chiquititas from '../imgCarrosels/chiquititas.jpg'
+import kaisen from '../imgCarrosels/kaisen.webp'
+import loki from '../imgCarrosels/loki.jpg'
+import neymar from '../imgCarrosels/neymar.webp'
+import things from '../imgCarrosels/things.jpg'
+
+
 
 function SeriesDub(){
     return(
-    <div className='Carrosel'>
+    <div className='Carrosel3'>
         
         <span className='Dub'>
             Séries estrangeiras dubladas em português
         </span>
 
         <div className='imgs'>
-   <img src={lacasa} className='logo'/>
-   <img src={lucifer} className='logo'/>
-   <img src={moshuku} className='logo'/>
-   <img src={narcos} className='logo'/>
-   <img src={suits} className='logo'/>
-   <img src={unsolved} className='logo'/>
-   <img src={vampiro} className='logo'/>
-   <img src={wolf} className='logo'/>
+
+<div className='spanNum'>
+<span className='numero'>1</span>
+   <img src={flash} className='logos'/>
+</div>
+
+<div className='spanNum'>
+   <span className='numero'> 2</span>
+   <img src={boruto} className='logos'/>
+</div>
+
+<div className='spanNum'>
+<span className='numero'>3</span>
+<img src={cobrakai} className='logos'/>
+</div>
+
+<div className='spanNum'>
+<span className='numero'>4</span>
+<img src={chiquititas} className='logos'/>
+</div>
+
+<div className='spanNum'>
+<span className='numero'>5</span>
+<img src={kaisen} className='logos'/>
+</div>
+
+<div className='spanNum'>
+<span className='numero'>6</span>
+<img src={loki} className='logos'/>
+</div>
+
+<div className='spanNum'>
+<span className='numero'>7</span>
+<img src={neymar} className='logos'/>
+</div>
+
+<div className='spanNum'>
+<span className='numero'>8</span>
+<img src={things} className='logos'/>
+</div>
 
 
-        </div>
+ </div>
     </div>
     );
 }

@@ -48,6 +48,7 @@
 .icon-idade-vol{
     /* border: solid 2px blue; */
     display: flex;
+    
     align-items: center;
     flex-direction: row;
     justify-content: end;
@@ -57,13 +58,14 @@
 
 .idade{
     background-color: red;
-    font-size: 30px;
+    font-size: 40px;
     border-radius: 5px;
 }
 
 .vol{
     border: solid 2px white;
     padding: 5px;
+    font-size: 40px;
     border-radius: 30px;
     color: white;
     

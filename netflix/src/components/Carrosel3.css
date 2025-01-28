@@ -1,10 +1,11 @@
-.Carrosel{
+.Carrosel3{
     display: flex;
     flex-direction: column;
     gap: 5px;
     width: 90vw;
     overflow-x: scroll; 
-    
+    border-radius: 10px;
+
     padding: 30px;
     
     background-color: rgba(20, 20, 20, 0.342);
@@ -43,13 +44,16 @@
     
     }
     
-    .logo{
+    .logos{
         display: flex;
         flex-direction: row;
         width: 260px;
-        height: 170px;
+        height: 280px;
+        margin-left: -80px;
+        border-radius: 10px;
+
         
-        border-radius: 5px;
+        
     }
     
     .imgs{
@@ -66,6 +70,17 @@
         outline-offset: -4px;
         box-sizing: border-box;
     }
+
+.spanNum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30vh;
+    font-weight: 900;
+gap: 10px;
+    -webkit-text-stroke: 5px gray;
+    /* position: absolute; */
+}
     
     
     

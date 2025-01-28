@@ -1,11 +1,13 @@
 .tela-home{
  
-    background-image: url(../imgHome/round6.webp) ;
+    background-image: url(../imgCarrosels/cavaleirolua.jpeg) ;
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100%;
+    
  
 }
 
@@ -13,5 +15,7 @@
 .navbar{
     position: fixed;
     width: 100%;
-    background-color: black;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.7511379551820728) 0%);
+
 }

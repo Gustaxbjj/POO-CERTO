@@ -1,12 +1,15 @@
 import  './TituloSerie.css'
-import Nomeserie from '../imgHome/Round6Nome.png'
+// import Nomeserie from '../imgCarrosels/cavaleiroNome.jpeg'
 import BtnAssistir from './BtnAssistir';
+import Nomedaserie from './Nomeserie';
 import BtnInfo from './BtnInfo';
 import Carrosel from './Carrosel'
 import Carrosel2 from './Carrosel2'
+import Carrosel3 from './Carrosel3'
 import { SiNetflix } from "react-icons/si";
 import { TbNumber16Small } from "react-icons/tb";
 import { FaVolumeHigh } from "react-icons/fa6";
+{/* <img src={Nomeserie} className='Nomedaserie' /> */}
 
 function  TituloSerie (){
 
@@ -18,8 +21,9 @@ function  TituloSerie (){
                     <SiNetflix className='icone'/>
                     <span className='serie'> Série</span>
                 </div>
-                <img src={Nomeserie} className='Nomedaserie' />
-            {/* <Nomeserie /> */}
+
+            <Nomedaserie /> 
+
             <div className='nomedaserie'>
             </div>
 
@@ -38,7 +42,7 @@ function  TituloSerie (){
 
             <Carrosel />
             <Carrosel2 />
-
+            <Carrosel3  />
         </div>
 
 

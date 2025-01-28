@@ -22,6 +22,7 @@ import { MdOutlinePersonOutline } from "react-icons/md";
     
                 
                 <div className='icon-conta'>
+            {/* <a href='' > <MdOutlinePersonOutline className='humano' /> </a> */}
                 <MdOutlinePersonOutline className='humano' />
                 <span className='txt-conta'> Conta</span>  
                 </div>

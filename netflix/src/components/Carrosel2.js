@@ -7,6 +7,9 @@ import supermales from '../imgCarrosels/supermales.jpeg'
 import residente from '../imgCarrosels/resident.jpeg'
 import portras from '../imgCarrosels/portras.jpeg'
 import shazam from '../imgCarrosels/shazam.jpeg'
+import ghotam from '../imgCarrosels/gotham.jpeg'
+import cavaleiro from '../imgCarrosels/cavaleiro.jpeg'
+import arqueiro from '../imgCarrosels/arqueiro.jpeg'
 
 function SeriesDub(){
     return(
@@ -25,6 +28,9 @@ function SeriesDub(){
    <img src={residente} className='logo'/>
    <img src={portras} className='logo'/>
    <img src={shazam} className='logo'/>
+   <img src={ghotam} className='logo'/>
+   <img src={cavaleiro} className='logo'/>
+   <img src={arqueiro} className='logo'/>
 
 
         </div>
