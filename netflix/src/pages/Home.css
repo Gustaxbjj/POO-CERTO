@@ -1,12 +1,12 @@
 .tela-home{
  
-    background-image: url(../imgCarrosels/cavaleiro.jpg) ;
+    background-image: url(../imgCarrosels/cavaleirolua.jpeg) ;
     
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 200vh;
-    height:70vh;
+    width: 100%;
+    height:100%;
     
  
 }
