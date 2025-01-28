@@ -9,7 +9,7 @@ function Home(){
 
     return(
         <div className='tela-home'>
-            {/* <img className='sakamoto' src={Sakamoto}/> */}
+          
             <div className='navbar'>
             <NavBar />
             </div>

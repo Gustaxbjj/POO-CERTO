@@ -50,7 +50,7 @@
         height: 290px;
         gap: 100px;
         border-radius: 10px;
-
+        transition: all .2s ease-in-out;
     }
     
     .imgs{
@@ -66,6 +66,7 @@
         outline: solid 4px #ffffff;
         outline-offset: -4px;
         box-sizing: border-box;
+        transform: scale(1.1);
     }
     
     
