@@ -52,7 +52,7 @@
         height: 270px;
         margin-left: -80px;
         border-radius: 10px;
-
+        transition: all .2s ease-in-out;
         
         
     }
@@ -70,6 +70,7 @@
         outline: solid 4px #ffffff;
         outline-offset: -4px;
         box-sizing: border-box;
+        transform: scale(1.1);
     }
 
 .spanNum{
