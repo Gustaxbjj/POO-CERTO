@@ -1,3 +1,7 @@
+body{
+    background-color: white;
+}
+
 .Menu-lateral{
     display: flex;
     flex-direction: column;
@@ -6,7 +10,7 @@
     color: black;
     background-color:white;
     border: solid 2px red ;
-    height: 250px;
+    height: 280px;
     width: 200px;
     gap: 24px;
 }

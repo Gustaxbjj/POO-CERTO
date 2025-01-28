@@ -6,7 +6,7 @@ import './Config.css'
 
 import Menulateral from '../components/Menulateral';
 
-function configuracao(){
+function Config(){
     return(
       <div>
             <Menulateral />
@@ -14,4 +14,4 @@ function configuracao(){
     );
 }
 
-export default configuracao
+export default Config;

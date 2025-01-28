@@ -15,7 +15,7 @@ function  TituloSerie (){
 
     return(
 
-        <div className='icons'>
+        <div className='icons-tudo'>
             
                 <div className='icons-netflix'>
                     <SiNetflix className='icone'/>

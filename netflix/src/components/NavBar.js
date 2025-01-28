@@ -1,4 +1,5 @@
 import './NavBar.css'
+import { Link } from 'react-router-dom';
 import logo from '../img/netflix-logo-transparente.png'
 
 import { MdOutlinePersonOutline } from "react-icons/md";
@@ -22,9 +23,14 @@ import { MdOutlinePersonOutline } from "react-icons/md";
     
                 
                 <div className='icon-conta'>
-            {/* <a href='' > <MdOutlinePersonOutline className='humano' /> </a> */}
+
+                <Link to='/Config' className='iconss'>
+
                 <MdOutlinePersonOutline className='humano' />
-                <span className='txt-conta'> Conta</span>  
+                <a className='txt-conta'> Conta</a> 
+
+                </Link>
+
                 </div>
 
             </div>
