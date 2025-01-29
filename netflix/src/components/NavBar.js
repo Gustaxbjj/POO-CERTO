@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../img/netflix-logo-transparente.png'
 
 import { MdOutlinePersonOutline } from "react-icons/md";
-
+import { motion } from "motion/react"
 
 
 // As entradas de um componente devem estar entre chaves.
@@ -11,6 +11,8 @@ import { MdOutlinePersonOutline } from "react-icons/md";
     function NavBar(){
 
         return (
+
+                
             <div className='nav-bar'>
                 <img className='logotipo' src={logo} />
                 

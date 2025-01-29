@@ -1,0 +1,17 @@
+.tudo{
+    /* display: flex;
+    flex-direction: row; */
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    
+    background-color: whitesmoke;
+
+}
+
+.areacentral{
+    display: flex;
+    flex-direction: column;
+
+}
