@@ -1,9 +1,11 @@
-.icons{
+.icons-tudo{
     border: solid 2px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 400px;
     padding-left: 60px;
+    gap: 20px;
     
 }
 
@@ -11,14 +13,10 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+    border-radius: 10px;
 }
 
-.nomedaserie{
-    display: flex;
-    flex-direction: row;
-    font-size: 100px;
-    color: red;
-}
+
 .icone{
     
    
@@ -38,7 +36,7 @@
     flex-direction: row;
     align-items: center;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     color: red;
 
 }
@@ -46,16 +44,34 @@
     color: white;
     font-size: 40px;
 }
+
+.icon-idade-vol{
+    /* border: solid 2px blue; */
+    display: flex;
+    
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+    padding: 16px;
+    width: 80%;
+}
+
 .idade{
     background-color: red;
-    font-size: 30px;
+    font-size: 40px;
     border-radius: 5px;
 }
 
 .vol{
     border: solid 2px white;
     padding: 5px;
+    font-size: 40px;
     border-radius: 30px;
     color: white;
     
+}
+
+.Nomedaserie{
+    /* border: solid 2px green; */
+    width: 500px;
 }

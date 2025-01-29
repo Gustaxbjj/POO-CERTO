@@ -1,0 +1,24 @@
+.parte-superior{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    /* border: solid 2px red; */
+    }
+
+
+.icon-netflix{
+    /* border: solid 2px blue; */
+    font-size: 100px;
+        width: 150px;
+
+}
+
+.perfilzinho{
+border: solid 3px black;
+font-size: 100px;
+    width: 70px;   
+    padding: 10px;
+    
+}

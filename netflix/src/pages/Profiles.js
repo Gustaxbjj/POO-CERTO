@@ -11,6 +11,8 @@ import skye from "../img/skye.jpg"
 
 
 function Profiles(){
+
+
     const usuario1 = {nome: "Talys", foto: marshall}
     const usuario2 = {nome: "fernando", foto: rocky}
     const usuario3 = {nome: "diego", foto: skye}
@@ -19,7 +21,9 @@ function Profiles(){
 
 
     return(
-        <SelecaoPerfil listaDeUsuarios={usuarios}/>
+           
+            <SelecaoPerfil  listaDeUsuarios={usuarios} />
+      
     )
 }
 

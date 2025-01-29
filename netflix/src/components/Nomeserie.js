@@ -1,11 +1,11 @@
 import './Nomeserie.css'
 
-function Nomeserie(){
+function Nomedaserie(){
     return(
-        <span className='nome-serie' >
-        R O U N D 6
-    </span>
+        <div className='Nome'>
+            <span>Moon Knight</span>
+        </div>
     )
-
 }
-export default Nomeserie
+
+export default Nomedaserie

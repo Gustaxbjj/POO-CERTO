@@ -1,13 +1,16 @@
+
+
 .Menu-lateral{
     display: flex;
     flex-direction: column;
     padding: 20px;
     font-size: 40px;
     color: black;
-    background-color:white;
+    background-color:whitesmoke;
     border: solid 2px red ;
-    height: 250px;
-    width: 200px;
+    padding: 150px;
+    height: 30%;
+    width: 20%;
     gap: 24px;
 }
 
@@ -32,4 +35,14 @@
     justify-content:flex-start ;
     align-items: center;
     gap: 10px;
+}
+
+
+.voltar{
+    border: solid 2px blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px ;
 }
