@@ -1,0 +1,17 @@
+.fundo{
+    background-image:url();
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    right: 100px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+}
+.foto{
+    width: 10px;
+    height: 10px;
+    overflow-x: scroll;
+}
