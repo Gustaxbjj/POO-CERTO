@@ -1,0 +1,88 @@
+.Carrosel3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 90vw;
+    overflow-x: scroll; 
+    /* align-items: center; */
+    border-radius: 10px;
+
+    padding: 30px;
+    
+    background-color: rgba(20, 20, 20, 0.342);
+    }
+    
+    
+    ::-webkit-scrollbar {
+        width: 8px;  /* Barra de rolagem vertical */
+        height: 8px; /* Barra de rolagem horizontal */
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: rgba(34, 34, 34, 0.342);
+        border-radius: 10px;
+    }
+    
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 10px;
+        background-color: rgba(34, 34, 34, 0.342);
+    }
+    
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+    
+    
+    .Dub{  
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        text-shadow: 1px 1px black;
+        color: white;
+    
+    }
+    
+    .logos{
+        display: flex;
+        flex-direction: row;
+        width: 260px;
+        height: 270px;
+        margin-left: -80px;
+        border-radius: 10px;
+        transition: all .2s ease-in-out;
+        
+        
+    }
+    
+    .imgs{
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    
+        padding: 10px;
+        
+    }
+    
+    .logo:hover{
+        outline: solid 4px #ffffff;
+        outline-offset: -4px;
+        box-sizing: border-box;
+        transform: scale(1.1);
+    }
+
+.spanNum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30vh;
+    font-weight: 900;
+    gap: 10px;
+    -webkit-text-stroke: 5px gray;
+    /* position: absolute; */
+}
+    
+    
+    
